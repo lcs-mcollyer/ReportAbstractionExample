@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Report {
+struct Report: Identifiable {
     
+    // addds a stored propertie that is automatically assigneed a unique series of letters and
+    // numbers... UUID
     let name: String
     let grade: Int
     let comment: String
